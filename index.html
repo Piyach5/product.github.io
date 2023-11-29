@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build a Product Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header id="header"> 
+        <div class="banner">
+          <img
+            height=150 id="header-img" 
+            src="https://www.pngitem.com/pimgs/m/42-428283_transparent-electric-guitar-png-cartoon-electric-guitar-png.png" 
+          />
+          <h1>bang bang silver hammer store
+            <p id="description">budget friendly music instrument store</p>
+          </h1>
+        </div>
+        <nav id="nav-bar">
+            <label><a class="nav-link" href="#product">product</a></label>
+            <label><a class="nav-link" href="#video">sound check</a></label>
+            <label><a class="nav-link" href="#price">how much?</a></label> 
+        </nav>
+    </header>
+    <section class="promotion">
+        <div id="promotion-text">
+            <quote>50% discount for first-time e-mail subsciption</quote>
+        </div>   
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+        name="email" 
+        id="email" 
+        type="email"
+        placeholder="ENTER YOUR E-MAIL"
+        required
+        />
+        <input
+        id="submit" 
+        type="submit"
+        value="SUBMIT"
+        />
+    </form>
+    </section>
+    <section id="product">
+        <h2>Epiphone Les Paul SL</h2>
+        <img src="https://i0.wp.com/riversidemusic.com/wp-content/uploads/SLGROUP.jpg?resize=510%2C458&ssl=1" />
+    </section>
+    <section id="specifications">
+        <h2>Specifications</h2>
+        <ul>
+            <li>Epiphone’s Most Affordable Les Paul Ever!</li>
+            <li>Ceramic Single Coil Pickups</li>
+            <li>Slim, Lightweight Body Design</li>
+            <li>Premium Covered 14:1 Machine Heads</li>
+            <li>Available in Ebony, Heritage Cherry Sunburst, Pacific Blue, Sunset Yellow, Turquoise, and Vintage Sunburst.</li>
+        </ul>
+    </section>
+    <section>
+    <iframe id="video" 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/80phYPDbx-w?si=ydSKid7XZCqv2s--"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+    </iframe>
+    </section>
+    <section id="price">
+        <p>all models price is $ 259.00</p>
+    </section>
+</body>
+</html>
